@@ -6,7 +6,7 @@ const ARR = [44, -25, 1, 18, 24];
 function findBestMatch(K, ARR) {
   // default values
   let nearest;
-  let bestDistanceFound = Number.MAX_SAFE_INTEGER;;
+  let bestDistanceFound = Number.MAX_SAFE_INTEGER;
   //iterate on array
   for (let i = 0; i < ARR.length; i++){
     // if we found our number we return it
