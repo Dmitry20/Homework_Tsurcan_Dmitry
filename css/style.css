@@ -1,0 +1,155 @@
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Monserat', sans-serif;
+  background-color: #f0f5ff;
+}
+/* all containers styles */
+.container {
+  padding-top: 20px;
+  width: 600px;
+  margin: 0 auto;
+  background-color: transparent;
+}
+/* buttons default styles */
+.button {
+  margin-left: 84%;
+  margin-right: 100%;
+  padding-bottom: 0px;
+  color: #000000;
+  display: flex;
+}
+button {
+  white-space: nowrap;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  background: transparent;
+  color: rgba(140, 169, 170, 0.562);
+  font-size: 12px;
+  cursor: pointer;
+}
+/* active button styles */
+button.active {
+  background-color: transparent;
+  color:rgba(240, 38, 2, 0.87)
+}
+/* hiden content of the deactivated button */
+.content {
+  display: none;
+  padding: 20px;
+}
+/* shown content of the active button */
+.content.active {
+  padding-top: 50px;
+  padding-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  height: 300px;
+  border: 2px solid rgba(140, 169, 170, 0.562);
+  border-radius: 10px;
+}
+/* radio buttons style */
+input {
+  padding: 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input:checked + label + ul{
+  opacity: 50%;
+}
+input:checked + label{
+  opacity: 50%;
+}
+
+/* left section of BUY FONTS tab's style with green card*/
+
+.card-left-section{
+  max-width: 180px;
+  margin-right: 90px;
+}
+.card-1{
+  border: 2px double rgb(0, 0, 0);
+  background-color: rgb(29, 196, 79);
+  border-radius: 5px;
+  height:100px;
+  width: 120px;
+  display:inline-block;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.label-text-1 {
+  font-size: 26px;
+  position:relative;
+  left:15px;
+  top:35px;
+  color: #f0f5ff;
+  background: transparent;
+  margin-bottom:0px;
+  opacity: 50%;
+}
+.dummy-text-1 {
+  position: relative;
+  white-space: pre-wrap;
+  text-align: center;
+}
+span {
+  text-align: center;
+  font-family: 'Monserat', sans-serif;
+  font-size: 18px;
+  margin:auto;
+}
+
+/* right section of BUY FONTS tab's style with rose card and blue*/
+.card-right-section{
+  padding-right: 30px; 
+}
+/* rose card styles */
+.card-right-top {
+  display: flex;
+  margin-bottom: 70px;
+}
+.card-2{
+  border: 2px double rgb(0, 0, 0);
+  background-color: rgb(231, 124, 231);
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  display:inline-block;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.label-text-2 {
+  font-size: 18px;
+  position:relative;
+  left:10px;
+  top:5px;
+  margin-bottom:0px;
+  color: #f0f5ff;
+  background: transparent;
+  opacity: 50%
+}
+/* blue card styles */
+.card-right-bottom {
+  display: flex;
+  margin-bottom: 70px;
+}
+.card-3{
+  border: 2px double rgb(0, 0, 0);
+  background-color: rgb(49, 111, 206);
+  border-radius: 5px;
+  height: 50px;
+  width: 110px;
+  display:inline-block;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+li::marker {
+  font-size: 30px;
+  color: rgb(80, 73, 62);
+}
+

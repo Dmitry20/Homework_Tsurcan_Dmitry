@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+        <title >Document</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <!-- header component with buttons -->
+      <div class="container">
+        <div class="button">
+          <button class="tab-button active" data-id="my-fonts">My Fonts</button>
+          <button class="tab-button" data-id="buy-fonts">Buy Fonts</button>
+        </div>
+      </div>
+
+      <!-- the content component -->
+      <div class="container">
+
+        <!-- MY FONTS tab  -->
+          <div class="content active" id="my-fonts">
+            <p> 
+              
+            </p>
+          </div>
+
+        <!-- BUY FONTS tab -->
+          <div class="content" id="buy-fonts">
+
+            <!-- left half of content container with green card-->
+            <div class="card-left-section">
+              <input class="radio-1" type="radio" id="card-1"
+              name="card" value="m" checked>
+              <label class="card-1" for="card-1"><p class="label-text-1">M</p></label>
+              <ul>
+                <li>
+                  <span class="dummy-text-1">Merriweather project is led by Sorkin Type</span>
+                </li>
+              </ul>
+            </div>
+            
+            <!-- right half of content container with rose and blue card-->
+            <div class="card-right-section">
+              <div class="card-right-top">
+                <input type="radio" id="card-2"
+                name="card" value="r">
+                <label class="card-2" for="card-2"><p class="label-text-2">R</p></label>
+                <ul>
+                  <li>
+                    <span class="dummy-text">Roboto doesn't compromise, allowing letters</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-right-bottom">
+                <input type="radio" id="card-3"
+                name="card" value="ns">
+                <label class="card-3" for="card-3"><p class="label-text-2">NS</p></label>
+                <ul>
+                  <li>
+                    <span class="dummy-text">Noto Sans covers over 30 scripts</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+    <script src="js\main.js"></script>      
+</html>
